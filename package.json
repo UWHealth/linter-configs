@@ -1,0 +1,34 @@
+{
+  "name": "@uwhealth/linter-configs",
+  "version": "1.0.0",
+  "description": "\"Collection of linter configurations for front-end projects\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UWHealth/linter-configs.git"
+  },
+  "author": "UW Health Web Center",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/UWHealth/linter-configs/issues"
+  },
+  "homepage": "https://github.com/UWHealth/linter-configs#readme",
+  "dependencies": {
+    "babel-eslint": "^8.2.6",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-compat": "^2.5.1",
+    "eslint-plugin-html": "^4.0.5",
+    "eslint-plugin-prettier": "^2.6.2",
+    "stylelint": "^9.4.0",
+    "stylelint-config-prettier": "^3.3.0",
+    "stylelint-order": "^0.8.1",
+    "stylelint-prettier": "^0.2.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.2.0",
+    "prettier": "^1.14.0"
+  }
+}
