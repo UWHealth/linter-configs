@@ -1,7 +1,7 @@
 {
   "name": "@uwhealth/linter-configs",
   "version": "1.0.1",
-  "description": "\"Collection of linter configurations for front-end projects\"",
+  "description": "Collection of linter configurations for front-end projects",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
