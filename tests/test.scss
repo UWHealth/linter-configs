@@ -3,7 +3,7 @@
     flex-direction: column;
     margin-bottom: type-space(1);
     padding-bottom: type-space(1);
-    @extend %secondary-font-family; //stylelint disable-line
+    @extend %secondary-font-family;
 }
 
 .info-pod__header,
