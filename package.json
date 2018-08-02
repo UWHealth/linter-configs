@@ -26,13 +26,14 @@
     "eslint-plugin-compat": "^2.5.1",
     "eslint-plugin-html": "^4.0.5",
     "eslint-plugin-prettier": "^2.6.2",
-    "stylelint": "^9.4.0",
     "stylelint-config-prettier": "^3.3.0",
     "stylelint-order": "^0.8.1",
     "stylelint-prettier": "^0.2.2"
   },
-  "devDependencies": {
+  "devDependencies": {},
+  "peerDependencies": {
     "eslint": "^5.2.0",
-    "prettier": "^1.14.0"
+    "prettier": "^1.14.0",
+    "stylelint": "^9.4.0"
   }
 }
