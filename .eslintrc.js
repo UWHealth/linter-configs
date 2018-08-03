@@ -1,7 +1,11 @@
 const prettier = require('./.prettierrc.js');
 
 module.exports = {
-    extends: ['plugin:prettier/recommended', 'prettier/standard'],
+    extends: [
+        'eslint:recommended',
+        'plugin:prettier/recommended',
+        'prettier/standard',
+    ],
     plugins: ['compat', 'html', 'prettier'],
     parser: 'babel-eslint',
     parserOptions: {
