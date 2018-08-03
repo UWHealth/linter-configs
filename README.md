@@ -24,8 +24,8 @@ This will bring along all plugins and rules to each linter.
 
 **Prettier**
 
-Editor plugins for Prettier may require a `.prettierrc.js` file at the root of the project to work.
+Editor plugins for Prettier may require a `.prettierrc` file at the root of the project to work.
 In that case, the file should look like this:
 ```
-module.exports = require('@uwhealth/linter-configs/.prettierrc.js');
+module.exports = require('@uwhealth/linter-configs/prettier.js');
 ```

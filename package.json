@@ -8,14 +8,14 @@
   },
   "files": [
     "./*.js",
+    "index.js",
+    ".prettierrc.js",
     "prettier.js",
-    "prettierrc.js",
+    ".eslintrc.js",
     "eslint.js",
-    "eslintrc.js",
+    ".stylelintrc.js",
     "stylelint.js",
-    "stylelintrc.js",
-    "style-order.js",
-    "index.js"
+    "style-order.js"
   ],
   "repository": {
     "type": "git",
