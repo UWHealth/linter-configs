@@ -7,7 +7,15 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "files": [
-    "./*.js"
+    "./*.js",
+    "prettier.js",
+    "prettierrc.js",
+    "eslint.js",
+    "eslintrc.js",
+    "stylelint.js",
+    "stylelintrc.js",
+    "style-order.js",
+    "index.js"
   ],
   "repository": {
     "type": "git",
