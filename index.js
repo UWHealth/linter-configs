@@ -1,7 +1,7 @@
 module.exports = {
-    eslint: require('./.eslintrc.js'),
+    eslint: require('./eslint.js'),
 
-    stylelint: require('./.stylelintrc.js'),
+    stylelint: require('./stylelint.js'),
 
-    prettier: require('./.prettierrc.js'),
+    prettier: require('./prettier.js'),
 };
