@@ -6,9 +6,8 @@
   "scripts": {
     "patch": "npm version patch && npm publish",
     "minor": "npm version minor && npm publish",
-    "postversion": "git push --tags",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "env": "git push refs/tags/v$npm_package_version"
+    "postversion": "git push origin HEAD v$npm_package_version",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "files": [
     "./*.js",
