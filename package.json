@@ -1,13 +1,14 @@
 {
   "name": "@uwhealth/linter-configs",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "Collection of linter configurations for front-end projects",
   "main": "index.js",
   "scripts": {
     "patch": "npm version patch && npm publish",
     "minor": "npm version minor && npm publish",
     "postversion": "git push --tags",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "env": "git push refs/tags/v$npm_package_version"
   },
   "files": [
     "./*.js",
