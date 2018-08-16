@@ -25,6 +25,8 @@ module.exports = {
 
         'prettier/prettier': ['warn', prettier],
 
+        'no-console': ['error', { allow: ['warn', 'error', 'info', 'table'] }],
+
         'lines-around-comment': [
             'warn',
             {
