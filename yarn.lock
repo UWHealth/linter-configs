@@ -89,6 +89,10 @@
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.0.tgz#50c1e2260ac0ed9439a181de3725a0168d59c48a"
 
+"@uwhealth/eslint-plugin-environments@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@uwhealth/eslint-plugin-environments/-/eslint-plugin-environments-1.0.0.tgz#fce4d57aae87d58840c314ed68c877f3353e00cc"
+
 acorn-jsx@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/acorn-jsx/-/acorn-jsx-4.1.1.tgz#e8e41e48ea2fe0c896740610ab6a4ffd8add225e"

@@ -1,5 +1,5 @@
 const order = require('./style-order.js');
-const prettier = require('./.prettierrc.js');
+const prettier = require('./prettier.js');
 
 module.exports = {
     extends: ['stylelint-config-recommended', 'stylelint-prettier/recommended'],
