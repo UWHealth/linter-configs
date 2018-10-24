@@ -1,6 +1,7 @@
 {
   "packages": [
-    "packages/*"
+    "packages/*",
+    "./package.json"
   ],
   "version": "1.4.1",
   "command": {
