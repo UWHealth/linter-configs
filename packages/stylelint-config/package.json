@@ -10,6 +10,9 @@
     "type": "git",
     "url": "https://github.com/UWHealth/Linter-Configs/tree/master/packages/stylelint-config/"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "prettier",
     "linting",
