@@ -1,0 +1,32 @@
+{
+  "name": "@uwhealth/eslint-config",
+  "version": "1.0.0",
+  "description": "UW Health eslint configuration",
+  "main": "eslint.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/UWHealth/Linter-Configs/tree/master/packages/eslint-config/"
+  },
+  "keywords": [
+    "prettier",
+    "linting",
+    "formatting"
+  ],
+  "author": "UW Health Web Center",
+  "license": "ISC",
+  "peerDependencies": {
+    "eslint": ">=4.2.0"
+  },
+  "dependencies": {
+    "@uwhealth/eslint-plugin-environments": "^1.0.0",
+    "@uwhealth/prettier-config": ">=1.0.0",
+    "babel-eslint": "^8.2.6",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-compat": "^2.5.1",
+    "eslint-plugin-html": "^4.0.5",
+    "eslint-plugin-prettier": "^2.6.2"
+  }
+}

@@ -1,4 +1,4 @@
-const prettier = require('./prettier.js');
+const prettierConfig = require('@uwhealth/prettier-config');
 
 module.exports = {
     extends: [
@@ -22,7 +22,7 @@ module.exports = {
         complexity: ['warn', 6],
         semi: ['warn', 'always'],
 
-        'prettier/prettier': ['warn', prettier],
+        'prettier/prettier': ['warn', prettierConfig],
 
         'no-console': ['error', { allow: ['warn', 'error', 'info', 'table'] }],
 

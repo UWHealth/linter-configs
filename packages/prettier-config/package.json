@@ -1,0 +1,23 @@
+{
+  "name": "@uwhealth/prettier-config",
+  "version": "1.0.0",
+  "description": "UW Health prettier configuration",
+  "main": "prettier.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/UWHealth/Linter-Configs/tree/master/packages/prettier-config/"
+  },
+  "keywords": [
+    "prettier",
+    "linting",
+    "formatting"
+  ],
+  "author": "UW Health Web Center",
+  "license": "ISC",
+  "peerDependencies": {
+    "prettier": ">=1.14.0"
+  }
+}

@@ -1,11 +1,11 @@
 const order = require('./style-order.js');
-const prettier = require('./prettier.js');
+const prettierConfig = require('@uwhealth/prettier-config');
 
 module.exports = {
     extends: ['stylelint-config-recommended', 'stylelint-prettier/recommended'],
     plugins: ['stylelint-prettier', 'stylelint-order'],
     rules: {
-        'prettier/prettier': [true, prettier],
+        'prettier/prettier': [true, prettierConfig],
         'order/order': order.order,
         'order/properties-order': order.properties,
         'at-rule-no-unknown': null,

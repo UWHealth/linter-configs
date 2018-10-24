@@ -1,1 +1,1 @@
-module.exports = require('./.stylelintrc.js');
+module.exports = require('./packages/stylelint-config');
