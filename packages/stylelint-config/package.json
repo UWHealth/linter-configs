@@ -24,6 +24,7 @@
     "stylelint": "^9.4.0"
   },
   "dependencies": {
+    "@uwhealth/prettier-config": ">=1.0.0",
     "stylelint-config-prettier": "^4.0.0",
     "stylelint-config-recommended": "^2.1.0",
     "stylelint-order": "^0.8.1",
