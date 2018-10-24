@@ -1,6 +1,6 @@
 {
   "name": "@uwhealth/eslint-config",
-  "version": "1.3.0-alpha.0",
+  "version": "1.4.0-alpha.0",
   "description": "UW Health eslint configuration",
   "main": "eslint.config.js",
   "scripts": {
@@ -21,8 +21,8 @@
     "eslint": ">=4.2.0"
   },
   "dependencies": {
-    "@uwhealth/eslint-plugin-environments": "^1.3.0-alpha.0",
-    "@uwhealth/prettier-config": "^1.3.0-alpha.0",
+    "@uwhealth/eslint-plugin-environments": "^1.4.0-alpha.0",
+    "@uwhealth/prettier-config": "^1.4.0-alpha.0",
     "babel-eslint": "^8.2.6",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-compat": "^2.5.1",

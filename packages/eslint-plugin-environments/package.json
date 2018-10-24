@@ -1,6 +1,6 @@
 {
   "name": "@uwhealth/eslint-plugin-environments",
-  "version": "1.3.0-alpha.0",
+  "version": "1.4.0-alpha.0",
   "description": "Additional environments that UW Health works in (T4, Rhino, Webpack)",
   "keywords": [
     "eslint",
