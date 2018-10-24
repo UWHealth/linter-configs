@@ -15,6 +15,7 @@
   },
   "keywords": [
     "prettier",
+    "eslint",
     "linting",
     "formatting"
   ],
