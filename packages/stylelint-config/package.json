@@ -1,6 +1,6 @@
 {
   "name": "@uwhealth/stylelint-config",
-  "version": "1.4.1-alpha.0",
+  "version": "1.4.1",
   "description": "UW Health eslint configuration",
   "main": "stylelint.config.js",
   "scripts": {
