@@ -14,7 +14,7 @@
     "index.js",
     ".prettierrc.js",
     "eslint.js",
-    "stylelint.js",
+    "stylelint.js"
   ],
   "repository": {
     "type": "git",
