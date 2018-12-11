@@ -4,8 +4,9 @@
   "description": "Collection of linter configurations for front-end projects",
   "main": "index.js",
   "scripts": {
-    "patch": "npm version patch && npm publish",
-    "minor": "npm version minor && npm publish",
+    "lerna": "lerna publish",
+    "patch": "lerna publish",
+    "minor": "lerna publish",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "files": [

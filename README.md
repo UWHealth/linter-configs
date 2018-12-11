@@ -64,3 +64,23 @@ If formatting isn't working in your editor, try adding a `.prettierrc.js` file a
 ```js
 module.exports = require('@uwhealth/prettier-config');
 ```
+
+---
+
+# Repo Management
+
+This repo uses **[Lerna](https://github.com/lerna/lerna)** to manage publishing and versioning.
+
+Briefly, this means that all the configs live within this single repo (`./packages`), but are published as individual npm modules (e.g. `@uwhealth/eslint-config`, `@uwhealth/stylelint-config`, etc.).
+The top level package (where this README lives) essentially just imports the other packages (and brings those others as in as dependencies). This allows projects to import one or all the different configs.
+Using **Lerna**, you can make changes to any of the sub-packages and Lerna will decide what packages need to be published (and have their version changed).   
+
+To publish new changes to npm, use the following command:
+
+```cli
+npx lerna publish
+```
+
+You'll be prompted to decide what type of update this is (`patch`, `minor`, `major`). Unless there's a API change that will affect projects currently using these configs, you should choose `patch`.
+
+**NOTE:** You have to be logged into npm and github (in your CLI) in order to publish.
