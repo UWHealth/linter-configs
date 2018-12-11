@@ -1,4 +1,7 @@
 # Linter Configs
+
+[![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lernajs.io/)
+
 Collection of linter configurations for front-end projects. Allows for standardization across projects.
 Includes ESLint, StyleLint, and Prettier.
 
