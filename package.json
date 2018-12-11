@@ -13,7 +13,8 @@
     "index.js",
     ".prettierrc.js",
     "eslint.js",
-    "stylelint.js"
+    "stylelint.js",
+    "README.md"
   ],
   "repository": {
     "type": "git",

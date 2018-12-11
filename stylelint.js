@@ -1,1 +1,1 @@
-module.exports = require('./packages/stylelint-config');
+module.exports = require('@uwhealth/stylelint-config');
