@@ -7,7 +7,6 @@
 //------------------------------------------------------------------------------
 // Plugin Definition
 //------------------------------------------------------------------------------
-
 module.exports = {
     environments: {
         t4: {
@@ -26,6 +25,19 @@ module.exports = {
                 isStyleHeader: true,
                 ContentHierarchy: true,
                 ContentManager: true,
+                process: true,
+                DateUtils: true,
+                ServerSideLinkManager: true,
+                TreeTraversalUtils: true,
+                CachedContent: true,
+                CSHelper: true,
+                PathBuilder: true,
+                terminalfour: true,
+                utils: true,
+                FileUtils: true,
+                StyleManager: true,
+                channel: true,
+                BrokerUtils: true,
             },
         },
         rhino: {
@@ -36,6 +48,8 @@ module.exports = {
                 java: true,
                 org: true,
                 com: true,
+                lang: true,
+                System: true,
                 defineClass: true,
                 deserialize: true,
                 gc: true,
