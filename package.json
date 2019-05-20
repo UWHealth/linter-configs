@@ -1,6 +1,6 @@
 {
   "name": "@uwhealth/linter-configs",
-  "version": "1.5.3",
+  "version": "1.5.4",
   "description": "Collection of linter configurations for front-end projects",
   "main": "index.js",
   "scripts": {
