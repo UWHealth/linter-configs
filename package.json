@@ -4,7 +4,7 @@
   "description": "Collection of linter configurations for front-end projects",
   "main": "index.js",
   "scripts": {
-    "postinstall": "npx lerna link --force-local",
+    "start": "npx lerna link --force-local",
     "lerna": "lerna publish",
     "patch": "lerna publish",
     "minor": "lerna publish",

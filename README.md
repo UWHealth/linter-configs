@@ -73,7 +73,15 @@ This repo uses **[Lerna](https://github.com/lerna/lerna)** to manage publishing 
 
 Briefly, this means that all the configs live within this single repo (`./packages`), but are published as individual npm modules (e.g. `@uwhealth/eslint-config`, `@uwhealth/stylelint-config`, etc.).
 The top level package (where this README lives) essentially just imports the other packages (and brings those others as in as dependencies). This allows projects to import one or all the different configs.
-Using **Lerna**, you can make changes to any of the sub-packages and Lerna will decide what packages need to be published (and have their version changed).   
+Using **Lerna**, you can make changes to any of the sub-packages and Lerna will decide what packages need to be published (and have their version changed).
+
+If you are making modifications to this repo for the first time, you should run the following commands:
+
+```cli
+npm install
+npm run start
+```
+This will make sure you're using the local versions of the dependencies (in the `./packages` folder), instead of the packages downloaded from npm. You'll want this, since you're likely making changes to the packages as well as the root directory.
 
 To publish new changes to npm, use the following command:
 
@@ -83,4 +91,6 @@ npx lerna publish
 
 You'll be prompted to decide what type of update this is (`patch`, `minor`, `major`). Unless there's a API change that will affect projects currently using these configs, you should choose `patch`.
 
-**NOTE:** You have to be logged into npm and github (in your CLI) in order to publish.
+**NOTE:** You have to be logged into npm and github (in your CLI) in order to publish. (using `npm login`).
+
+
