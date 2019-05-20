@@ -21,13 +21,13 @@
   "author": "UW Health Web Center",
   "license": "ISC",
   "peerDependencies": {
-    "stylelint": "^9.4.0"
+    "stylelint": ">=10.0.0"
   },
   "dependencies": {
     "@uwhealth/prettier-config": ">=1.0.0",
-    "stylelint-config-prettier": "^4.0.0",
-    "stylelint-config-recommended": "^2.1.0",
-    "stylelint-order": "^0.8.1",
-    "stylelint-prettier": "^0.2.2"
+    "stylelint-config-prettier": ">=5.2.0",
+    "stylelint-config-recommended": ">=2.1.0",
+    "stylelint-order": ">=3.0.0",
+    "stylelint-prettier": ">=1.1.0"
   }
 }

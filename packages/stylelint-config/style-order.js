@@ -1,6 +1,6 @@
 module.exports = {
     order: ['custom-properties', 'dollar-variables', 'declarations', 'rules'],
-    properties: [
+    "properties-order": [
         [
             'box-sizing',
             'content',
@@ -55,6 +55,7 @@ module.exports = {
             'column-count',
             'column-width',
             {
+                groupName: 'transforms',
                 order: 'flexible',
                 properties: [
                     'backface-visibility',
@@ -85,6 +86,7 @@ module.exports = {
             'border-left',
             {
                 order: 'flexible',
+                groupName: 'borders',
                 properties: [
                     'border-width',
                     'border-top-width',
@@ -117,6 +119,7 @@ module.exports = {
             'box-shadow',
             {
                 order: 'flexible',
+                groupName: 'backgrounds',
                 properties: [
                     'background',
                     'background-attachment',
@@ -194,6 +197,7 @@ module.exports = {
             'page-break-inside',
             {
                 order: 'flexible',
+                groupName: 'transitions',
                 properties: [
                     'transition',
                     'transition-delay',

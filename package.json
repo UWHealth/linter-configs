@@ -4,9 +4,11 @@
   "description": "Collection of linter configurations for front-end projects",
   "main": "index.js",
   "scripts": {
+    "postinstall": "npx lerna link --force-local",
     "lerna": "lerna publish",
     "patch": "lerna publish",
     "minor": "lerna publish",
+    "publish": "lerna publish",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "files": [
@@ -34,9 +36,9 @@
     "@uwhealth/stylelint-config": "^1.5.1"
   },
   "devDependencies": {
-    "eslint": "^5.2.0",
-    "lerna": "^3.4.3",
-    "prettier": "^1.14.0",
-    "stylelint": "^9.4.0"
+    "eslint": ">=5.2.0",
+    "lerna": ">=3.4.3",
+    "prettier": ">=1.14.0",
+    "stylelint": ">=10.0.1"
   }
 }
