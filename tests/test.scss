@@ -13,6 +13,9 @@ $something: "things";
 $stuff: 'string with new line
 ';
 
+// Should want to delete this
+;
+
 // indentation and trailing comma
 $map: (
     'pizza': 'pie',
@@ -25,12 +28,15 @@ $map: (
     border-color: color('border');
     // Should complain about order
     flex-basis: auto;
-    // Unkown property
-    not-a-thing: blue;
     // unknown unit
     width: 10chris;
     // no invalid hex
     color: #0;
+}
+
+.info {
+    // Unkown property
+    not-a-thing: blue;
 }
 
 // duplicate selector

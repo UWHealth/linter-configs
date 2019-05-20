@@ -6,6 +6,8 @@
    meant to test out eslint.
 */
 
+// Should not throw an error
+// Since var `thing` is used later
 var thing = 'nothing';
 
 // Console.log shouldn't be allowed
@@ -13,10 +15,13 @@ var thing = 'nothing';
 console.log(what);
 
 // if the Rhino environment is added, java should be defined
+// (see tests/environments/test.js for to see a working example)
 // Shouldn't allow unused variables (no-unused-vars)
 const globalJava = java;
 
-// content should be defined as a global through t4 environemnt
+// content should be undefined here
+// Since it is a global through t4 environemnt
+// (see tests/environments/test.js for to see a working example)
 content.getStuff(thing);
 
 // No unused variables
