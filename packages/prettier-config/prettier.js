@@ -7,6 +7,6 @@ module.exports = {
     arrowParens: 'always',
     proseWrap: 'preserve',
     singleQuote: true,
-    parser: 'babylon',
+    parser: 'babel',
     semi: true,
 };

@@ -22,15 +22,15 @@
   "author": "UW Health Web Center",
   "license": "ISC",
   "peerDependencies": {
-    "eslint": ">=4.2.0"
+    "eslint": ">=5.2.0"
   },
   "dependencies": {
-    "@uwhealth/eslint-plugin-environments": "^1.4.1",
-    "@uwhealth/prettier-config": "^1.4.1",
-    "babel-eslint": "^10.0.1",
-    "eslint-config-prettier": "^4.3.0",
-    "eslint-plugin-compat": "^3.1.1",
-    "eslint-plugin-html": "^5.0.5",
-    "eslint-plugin-prettier": "^3.1.0"
+    "@uwhealth/eslint-plugin-environments": ">=1.4.1",
+    "@uwhealth/prettier-config": ">=1.4.1",
+    "babel-eslint": ">=10.0.1",
+    "eslint-config-prettier": ">=4.3.0",
+    "eslint-plugin-compat": ">=3.1.1",
+    "eslint-plugin-html": ">=5.0.5",
+    "eslint-plugin-prettier": ">=3.1.0"
   }
 }

@@ -17,6 +17,8 @@ module.exports = {
         browser: true,
         node: true,
         commonjs: true,
+        serviceworker: true,
+        es6: true,
     },
     rules: {
         complexity: ['warn', 6],

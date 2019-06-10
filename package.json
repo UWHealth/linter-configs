@@ -4,12 +4,13 @@
   "description": "Collection of linter configurations for front-end projects",
   "main": "index.js",
   "scripts": {
-    "start": "npx lerna link --force-local",
-    "lerna": "lerna publish",
-    "patch": "lerna publish",
-    "minor": "lerna publish",
-    "publish": "lerna publish",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npx lerna bootstrap --hoist --force-local",
+    "lerna": "npx lerna publish",
+    "prelerna": "npm run test",
+    "patch": "npm run lerna",
+    "minor": "npm run lerna",
+    "publish": "npm run lerna",
+    "test": "node tests/tests.js"
   },
   "files": [
     "./*.js",
@@ -33,11 +34,14 @@
     "@uwhealth/eslint-config": "^1.5.3",
     "@uwhealth/eslint-plugin-environments": ">=1.0.0",
     "@uwhealth/prettier-config": ">=1.0.0",
-    "@uwhealth/stylelint-config": "^1.5.3"
+    "@uwhealth/stylelint-config": ">=1.5.3"
   },
   "devDependencies": {
+    "chalk": "^2.4.2",
     "eslint": ">=5.2.0",
+    "fast-glob": "^2.2.7",
     "lerna": ">=3.4.3",
+    "log-symbols": "^3.0.0",
     "prettier": ">=1.14.0",
     "stylelint": ">=10.0.1"
   }

@@ -10,13 +10,13 @@
   "author": "UW Health",
   "main": "lib/index.js",
   "scripts": {
-    "test": "mocha tests --recursive"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "publishConfig": {
     "access": "public"
   },
   "devDependencies": {
-    "eslint": ">=4.2.0"
+    "eslint": ">=5.2.0"
   },
   "engines": {
     "node": ">=0.10.0"

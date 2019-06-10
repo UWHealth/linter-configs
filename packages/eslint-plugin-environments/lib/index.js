@@ -10,7 +10,7 @@
 
 module.exports = {
     environments: {
-        t4: {
+        "t4": {
             globals: {
                 cwd: true,
                 document: true,
@@ -28,7 +28,7 @@ module.exports = {
                 ContentManager: true,
             },
         },
-        rhino: {
+        "rhino": {
             globals: {
                 importPackage: true,
                 importClass: true,
@@ -55,7 +55,7 @@ module.exports = {
                 version: true,
             },
         },
-        webpack: {
+        "webpack": {
             globals: {
                 __webpack_modules__: true,
                 __webpack_require__: true,
