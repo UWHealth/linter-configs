@@ -1,6 +1,6 @@
 {
   "name": "@uwhealth/stylelint-config",
-  "version": "1.5.3",
+  "version": "1.5.5",
   "description": "UW Health eslint configuration",
   "main": "stylelint.config.js",
   "scripts": {
@@ -24,7 +24,7 @@
     "stylelint": ">=10.0.0"
   },
   "dependencies": {
-    "@uwhealth/prettier-config": ">=1.4.0",
+    "@uwhealth/prettier-config": "^1.5.5",
     "stylelint-config-prettier": ">=5.2.0",
     "stylelint-config-recommended": ">=2.1.0",
     "stylelint-order": ">=3.0.0",

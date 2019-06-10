@@ -1,6 +1,6 @@
 {
   "name": "@uwhealth/prettier-config",
-  "version": "1.4.1",
+  "version": "1.5.5",
   "description": "UW Health prettier configuration",
   "main": "prettier.js",
   "scripts": {
