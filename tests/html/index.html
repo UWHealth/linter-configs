@@ -1,0 +1,42 @@
+<div></div>
+<style>
+    /* Should complain about indentation and order problems*/
+    main {
+        margin-top: 5vh;
+        padding: 4rem;
+        border-radius: 1rem;
+        background-color: white;
+    }
+    ul {
+        list-style: none;
+        margin: 0;
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    li:before {
+        height: 1.5rem;
+        background-size: cover;
+        content: '';
+        border-radius: 3rem;
+        margin-right: .5rem;
+        margin-left: -3rem;
+    }
+</style>
+
+<script>
+    import thing from './thing.js';
+
+    const foo = thing();
+
+    foo.then(d => document.querySelectorAll('a really long string that should make prettier ask about changing the formatting.')(
+        {foo: d,
+            bar: d,
+            d,
+            baz: foo,
+            thing,
+            missingTrailingComma: d
+    }))
+
+</script>

@@ -1,8 +1,13 @@
-const uwhealth = require('../../packages/eslint-config');
-const envs = require('../../packages/eslint-plugin-environments');
-
 module.exports = {
-    "extends": [uwhealth],
-    "root": true,
-    "env": {...envs.environments}
+    "extends": ['@uwhealth'],
+    "plugins": ["@uwhealth/environments"],
+    "root": false,
+    "overrides": {
+        "files": ["*.js", "*.html"],
+        "env": {
+            "@uwhealth/environments/t4": true,
+            "@uwhealth/environments/rhino": true,
+            "@uwhealth/environments/webpack": true
+        }
+    }
 }
