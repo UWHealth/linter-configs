@@ -9,10 +9,6 @@
 // Should complain about quotes
 $something: "things";
 
-// unescaped new line in a string
-$stuff: 'string with new line
-';
-
 // Should want to delete this
 ;
 
