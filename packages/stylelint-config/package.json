@@ -1,7 +1,7 @@
 {
   "name": "@uwhealth/stylelint-config",
   "version": "1.5.6",
-  "description": "UW Health eslint configuration",
+  "description": "UW Health stylelint configuration",
   "main": "stylelint.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
