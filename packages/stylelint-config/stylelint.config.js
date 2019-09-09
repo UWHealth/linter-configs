@@ -1,6 +1,8 @@
 const order = require('./style-order.js');
 const prettierConfig = require('@uwhealth/prettier-config');
 
+prettierConfig.parser = 'scss';
+
 module.exports = {
     extends: ['stylelint-config-recommended', 'stylelint-prettier/recommended'],
     plugins: ['stylelint-prettier', 'stylelint-order'],
