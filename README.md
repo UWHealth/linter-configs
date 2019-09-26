@@ -6,7 +6,7 @@ Collection of linter configurations for front-end projects. Allows for standardi
 Includes ESLint, StyleLint, and Prettier.
 
 ```cli
-yarn add @uwhealth/linter-configs --dev
+npm install @uwhealth/linter-configs -D
 ```
 
 ## Individual configurations
@@ -15,19 +15,19 @@ This is a mono-repo of other configurations. So, installing the `linter-configs`
 
 ```cli
 # ESLint
-yarn add @uwhealth/eslint-config --dev
+npm install @uwhealth/eslint-config -D
 ```
 ```cli
 # ESLint Environments
-yarn add @uwhealth/eslint-plugin-environments --dev
+npm install @uwhealth/eslint-plugin-environments -D
 ```
 ```cli
 # StyleLint
-yarn add @uwhealth/stylelint-config --dev
+npm install @uwhealth/stylelint-config -D
 ```
 ```cli
 # Prettier
-yarn add @uwhealth/prettier-config --dev
+npm install @uwhealth/prettier-config -D
 ```
 
 ## Adding to a project
