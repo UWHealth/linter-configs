@@ -1,6 +1,6 @@
 {
   "name": "@uwhealth/linter-configs",
-  "version": "1.5.6",
+  "version": "1.5.7",
   "description": "Collection of linter configurations for front-end projects",
   "main": "index.js",
   "scripts": {
@@ -34,7 +34,7 @@
     "@uwhealth/eslint-config": "^1.5.6",
     "@uwhealth/eslint-plugin-environments": "^1.5.5",
     "@uwhealth/prettier-config": "^1.5.6",
-    "@uwhealth/stylelint-config": "^1.5.6"
+    "@uwhealth/stylelint-config": "^1.5.7"
   },
   "devDependencies": {
     "chalk": "^2.4.2",
